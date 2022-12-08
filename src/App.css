@@ -1,0 +1,114 @@
+body {
+  background-color: rgb(38, 37, 37);
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* main container */
+.main_container {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+}
+
+/* main card */
+.main_card {
+  width: 350px;
+  /* border: 1px solid whitesmoke; */
+  border: 5px solid grey;
+  border-radius: 25px;
+  height: auto;
+  background-color: rgb(23, 23, 23);
+}
+
+/* main image */
+.main_image {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* main info Text */
+.main_infoText {
+  text-align: center;
+}
+
+/* main_info_h1,h2,h5 */
+.main_infoText-h1 {
+  margin: 6% 0% 0% 0%;
+}
+
+/* software engineer h2 */
+.main_infoText-h2 {
+  margin: 0;
+  color: orange;
+  font-size: large;
+  font-weight: 100;
+}
+
+.main_infoText-h5 {
+  margin: 2% 0% 5% 0;
+}
+
+/* main about subtext */
+.main_aboutText {
+  text-align: left;
+  padding: 6% 10% 0% 12%;
+}
+
+/* main interests subtext */
+.main_interestText {
+  text-align: left;
+  padding: 0% 10% 0% 12%;
+}
+
+.main_aboutText p {
+  font-weight: 100;
+}
+
+.main_interestText p {
+  font-weight: 100;
+}
+
+/* buttons css */
+.main_emailBtn {
+  font-family: sans-serif;
+  font-weight: 600;
+  color: black;
+  padding: 1% 10% 1% 10%;
+  margin-right: 5%;
+  background-color: aliceblue;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.main_LinkedIn {
+  font-family: sans-serif;
+  font-weight: 600;
+  padding: 1% 10% 1% 10%;
+  color: white;
+  background-color: rgb(77, 207, 255);
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+/* social icons bottom */
+
+.fb_class {
+  height: 40px;
+  width: 40px;
+  padding: 0% 5% 0% 0%;
+}
+
+.main_socialIcons {
+  margin: 0% 0% 0% 0%;
+  padding: 6% 0% 0% 0%;
+  height: 60px;
+  display: block;
+  background-color: rgb(164, 164, 164);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
