@@ -1,6 +1,6 @@
 # Digital Card
 
-Created digital card with Vite(ReactJS), HTML and CSS.
+Created digital card with Vite (ReactJS), HTML and CSS.
 
 
 ## Deployed At Netlify
