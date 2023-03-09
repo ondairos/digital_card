@@ -29,16 +29,19 @@ function App() {
 
           <div className="main_aboutText">
             <h2>About</h2>
-            <ul>
-              <li>I have been working with Computers since the age of 13.</li>
+            <p>
+              I have been working with Computers since the age of 13.
               <br />
-              <li>I am a junior software developer with a strong foundation in JavaScript.</li>
               <br />
-              <li>The tools I use are: NodeJS, ExpressJS, MongoDB and ReactJS (Redux - GraphQL).</li>
+              I am a junior software developer with a strong foundation in JavaScript.
               <br />
-              <li>I am proficient in HTML, CSS, Git, Bash, Linux and have basic knowledge of MySQL, AWS, Docker, Terraform, Jenkins.</li>
               <br />
-            </ul>
+              The tools I use are: NodeJS, ExpressJS, MongoDB and ReactJS (Redux - GraphQL).
+              <br />
+              <br />
+              I am proficient in HTML, CSS, Git, Bash, Linux and have basic knowledge of MySQL, AWS, Docker, Terraform, Jenkins.
+              <br />
+            </p>
           </div>
 
           <div className="main_interestText">
