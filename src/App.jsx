@@ -37,7 +37,7 @@ function App() {
               <br />
               I am a junior software developer with a strong foundation in JavaScript.
               <br />
-              The tools i use are: NodeJS, ExpressJS, MongoDB and ReactJS(Redux - GraphQL).
+              The tools I use are: NodeJS, ExpressJS, MongoDB and ReactJS(Redux - GraphQL).
               <br />
               I am proficient in HTML, CSS, Git, Bash, Linux and have basic knowledge of MySQL, AWS, Docker, Terraform, Jenkins.
               <br />
