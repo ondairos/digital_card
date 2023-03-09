@@ -32,13 +32,15 @@ function App() {
             <p>
               I have been working with Computers since the age of 13.
               <br />
-              Graduated with Computer's Science bachelors degree in 2016.
-              <br />
               For the past 5 years I have been working at the IT and Retail
               field.
               <br />
-              Started to self study programming this year and have been learning
-              non-stop through courses/videos.
+              I am a junior software developer with a strong foundation in JavaScript.
+              <br />
+              The tools i use are: NodeJS, ExpressJS, MongoDB and ReactJS(Redux - GraphQL).
+              <br />
+              I am proficient in HTML, CSS, Git, Bash, Linux and have basic knowledge of MySQL, AWS, Docker, Terraform, Jenkins.
+              <br />
             </p>
           </div>
 
@@ -54,7 +56,7 @@ function App() {
             </p>
           </div>
           <div className="main_socialIcons">
-          <a href="https://github.com/ondairos">
+            <a href="https://github.com/ondairos">
               <img className="fb_class" src="/github.svg" alt="github" />
             </a>
             <a href="https://twitter.com/Ondairos">
