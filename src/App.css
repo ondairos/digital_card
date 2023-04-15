@@ -1,7 +1,13 @@
+@font-face {
+  font-family: "Walsheim";
+  src: local("GTWalsheimProRegular"),
+    url("./assets/GTWalsheimProRegular.ttf") format("truetype");
+}
+
 body {
   background-color: rgb(38, 37, 37);
   color: white;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Walsheim", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* main container */
@@ -111,4 +117,9 @@ body {
   background-color: rgb(164, 164, 164);
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+}
+
+.main_paragraph {
+  padding: 0;
+  margin: 0;
 }
