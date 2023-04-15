@@ -47,14 +47,12 @@ function App() {
 
           <div className="main_interestText">
             <h1>Interests</h1>
-            <p>
-              <p className="main_paragraph">Learning new technologies.</p>
-              <br />
-              <p className="main_paragraph"> Building awesome stuff.</p>
-              <br />
-              <p className="main_paragraph">Getting better everyday.</p>
-              <br />
-            </p>
+            <p className="main_paragraph">Learning new technologies.</p>
+            <br />
+            <p className="main_paragraph"> Building awesome stuff.</p>
+            <br />
+            <p className="main_paragraph">Getting better everyday.</p>
+            <br />
           </div>
           <div className="main_socialIcons">
             <a href="https://github.com/ondairos">
