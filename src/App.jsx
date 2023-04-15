@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import "./assets/GTWalsheimProRegular.ttf";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -7,11 +8,7 @@ function App() {
   return (
     <div className="main_container">
       <div className="main_card">
-        <img
-          className="main_image"
-          src="/IconPhotoPX.jpg"
-          alt="placeholder"
-        />
+        <img className="main_image" src="/IconPhotoPX.jpg" alt="placeholder" />
         <div className="main_infoText">
           <h1 className="main_infoText-h1">Ioannis Kantiloros</h1>
           <h2 className="main_infoText-h2">Software Engineer</h2>
@@ -28,52 +25,50 @@ function App() {
           </a>
 
           <div className="main_aboutText">
-            <h2>About</h2>
-            <p>
+            <h1>About</h1>
+            <p className="main_paragraph">
               I have been working with Computers since the age of 13.
-              <br />
-              Graduated with Computer's Science bachelors degree in 2016.
-              <br />
-              For the past 5 years I have been working at the IT and Retail
-              field.
-              <br />
-              Started to self study programming this year and have been learning
-              non-stop through courses/videos.
             </p>
+            <br />
+            <p className="main_paragraph">
+              Graduated with Computer's Science bachelors degree in 2016.
+            </p>
+            <br />
+            <p className="main_paragraph">
+              For the past 5 years I have been working in the IT and Retail
+              field.
+            </p>
+            <br />
+            <p className="main_paragraph">
+              Working with the MERN stack and Python.
+            </p>
+            <br />
           </div>
 
           <div className="main_interestText">
-            <h2>Interests</h2>
+            <h1>Interests</h1>
             <p>
-              Learning new technologies.
+              <p className="main_paragraph">Learning new technologies.</p>
               <br />
-              Building awesome stuff.
+              <p className="main_paragraph"> Building awesome stuff.</p>
               <br />
-              Getting better everyday.
+              <p className="main_paragraph">Getting better everyday.</p>
               <br />
             </p>
           </div>
           <div className="main_socialIcons">
-          <a href="https://github.com/ondairos">
+            <a href="https://github.com/ondairos">
               <img className="fb_class" src="/github.svg" alt="github" />
             </a>
             <a href="https://twitter.com/Ondairos">
-              <img
-                className="fb_class"
-                src="/twitter.svg"
-                alt="twitter"
-              />
+              <img className="fb_class" src="/twitter.svg" alt="twitter" />
             </a>
             <a href="https://www.facebook.com/giannis.kanti">
               <img className="fb_class" src="/facebook.svg" alt="fb" />
             </a>
 
             <a href="https://www.instagram.com/giannis_kanti/">
-              <img
-                className="fb_class"
-                src="/instagram.svg"
-                alt="instagram"
-              />
+              <img className="fb_class" src="/instagram.svg" alt="instagram" />
             </a>
           </div>
         </div>
