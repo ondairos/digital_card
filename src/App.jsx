@@ -24,7 +24,7 @@ function App() {
             LinkedIn
           </a>
 
-          <div className="main_aboutText">
+<div className="main_aboutText">
             <h1>About</h1>
             <p className="main_paragraph">
               I have been working with Computers since the age of 13.
